@@ -6,7 +6,7 @@
     src: url(fonts/Montserrat/Montserrat-Regular.ttf);
 }
 @font-face{  font-family: 'Roboto';
-    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
 
 *{
@@ -721,7 +721,7 @@ body{
 
         .sponsors{
             padding-top: 5%;
-            padding-bottom: 5%;
+            padding-bottom: 6%;
         }
 
         .sponsors-container{
@@ -772,6 +772,162 @@ body{
         .row2 div{
             margin-left:20px;
             border-radius: 15px;
-            height: 500px;
+            /* height: 500px; */
             width: 300px;
         }
+/* ======================================================================= */
+        /* Styles for CONTACT FORM */
+/* ======================================================================= */
+
+
+        .contact{
+            background-color:#241f2b;
+            padding-top: 5%;
+            padding-left: 10%;
+            padding-right: 10%;
+            color: white;
+        }
+
+        .contact h1{
+            color: #e1e1e2;
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 40px;
+            padding-bottom: 3%;
+        }
+
+        .demande{
+            width: 100%;
+        }
+        .dmd{
+            padding-top: 10px;
+        }
+
+        .contatc-form{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .form-left{
+            width: 50%;
+        }
+
+        .form-left div{
+            padding-top: 10px;
+        }
+
+        .form-right div{
+            padding-top: 10px;
+        }
+
+        .form-right{
+            width: 50%;
+            margin-left: 2.5%;
+        }
+
+        .inputBox{
+            width: 97.5%;
+            height: 40px;
+        }
+
+        select{
+            height: 40px;
+            background-color: ivory;
+            border: lightcoral;
+        }
+
+        .send{
+            height: 50px;
+            background-color: #d92950;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-family: 'Roboto';
+            font-size: 17px;
+            font-weight: 800;
+            padding: 10px;
+        }
+
+        .send:hover{
+            background-color: inherit;
+            color: white;
+            border: 2px solid #d92950;
+            border-radius: 10px;
+        }
+
+/* ======================================================================= */
+        /* Styles for FOOTER */
+/* ======================================================================= */
+
+        footer{
+            padding: 10%;
+            background-color: #2d2d2d;
+            color:white;
+        }
+
+        footer address{
+            font-style: normal;
+            color: hsla(0,0%,100%,.87);
+            font-size: 1.4rem;
+            font-weight: 400;
+            font-family: 'Roboto';
+        }
+
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .formulaire{
+            width: 45%;
+        }
+
+        .email-telephone{
+            padding-top: 40px;
+        }
+
+        .email-telephone a{
+            color: #b92949;
+            font-size: 1.4rem;
+            text-decoration: none;
+        }
+
+        .form{
+            display: flex;
+            padding-top: 20px;
+        }
+
+        .email{
+            height: 45px;
+            width: 400px;
+        }
+
+        .subscribe{
+            height: 50px;
+            width: 150px;
+            background-color: #d92950;
+            color: white;
+            border: none;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            font-family: 'Roboto';
+            font-size: 17px;
+            font-weight: 800;
+            margin-left: -2px;
+        }
+
+        .subscribe:hover{
+            background-color: inherit;
+            color: #000;
+        }
+
+        footer p{
+            font-size: 1.4rem;
+            font-family: 'Montserrat Regular';
+        }
+
+        footer strong{
+            font-family: 'Montserrat';
+        }
+        
