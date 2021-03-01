@@ -50,6 +50,10 @@ body{
             margin-right: 40px;
         }
 
+        .index{
+            border-bottom: 2px solid #f80800;
+        }
+
         li:hover{
             border-bottom: 2px solid #f80800;
         }
@@ -94,7 +98,8 @@ body{
         .btn-lg {
             text-decoration: none;
             background-color: #fff;
-            border-radius: 20px;
+            border-radius: 1.25rem;
+            font-family: 'Roboto';
             padding: 20px;
             color: #d92950;
             font-size: 20px;
@@ -114,8 +119,9 @@ body{
         .reveal-paragraph{
             width: 45%;
             color: white;
-            font-size: 18px;
+            font-size: 17px;
             text-align: center;
+            font-family: 'Montserrat-Regular';
         }
 
         .technos{
@@ -233,8 +239,7 @@ body{
             padding: 2%;
         }
         .img-fluid{
-            width: 90px;
-            padding: 20px;
+            padding: 30px;
         }
 
 
@@ -304,7 +309,7 @@ body{
         .btn-lg-project {
             text-decoration: none;
             background-color:  #d92950;
-            border-radius: 20px;
+            border-radius: 1.25rem;
             padding: 20px;
             color: white;
             font-size: 20px;
@@ -344,3 +349,297 @@ body{
             width: 90px;
             padding: 20px;
         }
+
+
+/* ======================================================================= */
+        /* Styles for  PRODUCTS */
+/* ======================================================================= */
+
+        .products{
+            background-color: #d92950;
+            color: white;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .products h1{
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 38px;
+        }
+
+        .work{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 5%;
+        }
+
+        .work-col{
+            width: 92.5%;
+        }
+
+        .work-footer{
+            width: 85%; 
+        }
+
+        .work-footer p{
+            color: white;
+            font-size: 13px;
+            font-weight: 300;
+            text-decoration: none;
+            font-family: 'Montserrat-Regular';
+        }
+
+        .work-footer a{
+            color: white;
+            font-size: 13px;
+            font-weight: 300;
+            text-decoration: none;
+            font-family: 'Montserrat-Regular';
+        }
+
+        .work-img{
+            border-radius: 20px;
+            width: 92%;
+        }
+
+        .footer-left{
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            height: 20px;
+        }
+
+        .footer-left h5{
+            color: #d92950;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .client{
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+        }
+
+        .techno-used{
+            margin-top: 10px;
+            height: 25px;
+            padding: 5px;
+            background-color: #ed0058;
+            display: flex;
+        }
+
+        .techno-used svg{
+            padding: 2px;
+        }
+        .techno-used p{
+            font-weight: 400;
+        }
+        
+/* ======================================================================= */
+        /* Styles for  EXPERTISE */
+/* ======================================================================= */
+
+        .expertise{
+            background-color: white;
+            color:#424345;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .expertise h1{
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 38px;
+        }
+
+        .expertise-card-container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 3%;
+        }
+
+        .left{
+            width: 45%;
+        }
+
+        .right{
+            width: 35%;
+            margin-left: -15%;
+        }
+
+        .expertise-header-left{
+            height: 60px;
+            background-color: #d92950;
+            color: white;
+        }
+
+        .expertise-header-right{
+            height: 60px;
+            background-color: #424345;
+            color: white;
+        }
+
+        .expertise h3{
+            font-family: 'Montserrat';
+            font-size: 28px;
+            padding: 15px;
+        }
+
+        .expertise p{
+            font-family: 'monospace';
+        }
+
+        .expertise-body{
+            background-color: #f1f0f3;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .hardskills{
+            padding: 20px;
+        }
+
+        /* .row{
+            padding: 15px;
+        } */
+
+        .softskills{
+            width: 50%;
+            background-color: #dfdee1;
+            border-radius: 20px;
+            margin-left: 10%;
+            padding: 65px;
+        }
+
+        .softskills-list li{
+            border-bottom: none;
+            font-family: 'monospace';
+            letter-spacing: 1.9px;
+            font-weight:500;
+            font-size: 16px;
+        }
+
+/* ======================================================================= */
+        /* Styles for IN MEDIA */
+/* ======================================================================= */
+        
+        .ready{
+            background-color: #ae3753;
+            color: white;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .ready h1{
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 38px;
+        }
+
+        .ready p{
+            text-align: center;
+            font-family: 'Monospace';
+            font-size: 20px;
+        }
+
+    
+
+        .ready-images{
+            padding-top: 3%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .img-container{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .img-left{
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10%;
+            height: 60px;
+        }
+
+        .img-arrow{
+            padding: 10%;
+            width: 40px;
+            height: 30px;
+
+        }
+
+        .img{
+            width: 50px;
+            align-self: center;
+        }
+
+        .plan-call{
+            padding-top: 10%;
+            padding-bottom: 3%;
+        }
+
+        .btn-plan-call{
+            background-color: #d92950;
+            border-radius: 20px;
+            padding: 1.25rem;
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Robotto';
+            text-decoration: none;
+        }
+
+        .btn-plan-call:hover{
+            background-color: inherit;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: white;
+        }
+    
+
+/* ======================================================================= */
+        /* Styles for IN MEDIA */
+/* ======================================================================= */
+
+        .in-media{
+            background-color: black;
+            color: white;
+            padding-top: 5%;
+        }
+
+        .in-media h1{
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 38px;
+        }
+
+        .media{
+            padding-top: 2.5%;
+            padding-bottom: 5%;
+            padding-right: 28%;
+            padding-left: 28%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        
+
