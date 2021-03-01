@@ -496,6 +496,7 @@ body{
 
         .expertise p{
             font-family: 'monospace';
+            text-align: center;
         }
 
         .expertise-body{
@@ -505,6 +506,8 @@ body{
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
         }
+
+        
 
         .hardskills{
             padding: 20px;
@@ -929,5 +932,14 @@ body{
 
         footer strong{
             font-family: 'Montserrat';
+        }
+
+        .kd-jobs{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .kd-jobs-container{
+            padding-top: 10%;
         }
         
