@@ -60,11 +60,11 @@ body{
         }
 
         .index{
-            border-bottom: 2px solid #f80800;
+            border-bottom: 2px solid #ff046b;
         }
 
         li:hover{
-            border-bottom: 2px solid #f80800;
+            border-bottom: 2px solid #ff046b;
         }
 
         nav a{
@@ -815,14 +815,16 @@ body{
             padding-bottom: 10px;
         }
         .dmd select{
-            width: 100%;
+            width: 98.5%;
             height: 40px;
             border: none;
             outline: none;
+            /* box-sizing: 1px solid #d92950; */
+            box-sizing: border-box;
         }
 
         .dmd textarea{
-            width: 100%;
+            width: 98.5%;
             border: none;
             outline: none;
         }
@@ -909,6 +911,8 @@ body{
             font-size: 1rem;
         }
 
+
+
 /* ======================================================================= */
         /* Styles for FOOTER */
 /* ======================================================================= */
@@ -983,7 +987,7 @@ body{
         footer strong{
             font-family: 'Montserrat';
         }
-
+        
 
 /* 
         =========================================================
@@ -1005,4 +1009,56 @@ body{
             font-family: 'Montserrat';
             font-size: 38px;
         }
-        
+
+        .jobs-card-row{
+            display: flex;
+            flex-direction: column;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .row-jobs{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* .row-jobs div{
+            padding: 20px;
+        } */
+
+        .job-card{
+            background-color:#f1f0f3;
+            border-radius: 15px;
+            border: 1px solid #dddcdf;
+            width: 23vw;
+            padding: 20px;
+        }
+
+        #row-job-2{
+            padding-top: 30px;
+        }
+
+        .job-card li{
+            list-style: none;
+        }
+
+        .job-card a{
+            text-decoration: none;
+            font-size: 1rem;
+            color: #fd68a6;
+        }
+
+        .job-card h3{
+            font-size: 1.3rem;
+            line-height: 30px;
+            font-family: 'Montserrat';
+            color: #424345;
+            margin-bottom: .5rem;
+            font-weight: 700;
+        }
+
+        .job-card p{
+            margin-bottom: 3rem !important;
+            font-size: 1rem;
+            font-family: 'Montserrat Regular';
+        }
