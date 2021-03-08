@@ -490,6 +490,13 @@ header {
   margin-top: 10px;
   font-family: "Ubuntu Mono", monospace;
 }
+.techno-used p{
+  padding: 2px;
+}
+
+.techno-used svg{
+  padding-right: 1px;
+}
 
 /* 
     ==============================================================
