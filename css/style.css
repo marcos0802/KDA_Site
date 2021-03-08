@@ -437,18 +437,18 @@ header {
   display: flex;
 }
 
-#client-info {
+.client-info {
   width: 60%;
 }
 
-#client-info p {
+.client-info p {
   font-size: 0.7em;
   font-family: "Montserrat-Regular", sans-serif;
   font-weight: 200;
   line-height: 1.5em;
 }
 
-#client-info a {
+.client-info a {
   font-size: 0.7em;
   font-family: "Montserrat-Regular", sans-serif;
   font-weight: 200;
@@ -457,7 +457,7 @@ header {
   color: white;
 }
 
-#client-country {
+.client-country {
   width: 35%;
   display: flex;
   justify-content: space-between;
