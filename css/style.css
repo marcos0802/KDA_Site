@@ -742,7 +742,7 @@ header {
   margin: 30px;
   border-radius: 20px;
   background: #fff;
-  padding: 20px 20px;
+  padding: 15px 15px;
 }
 .job-card img {
   width: 50px;
@@ -757,13 +757,13 @@ header {
 }
 
 .jobs-left p{
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: 'Montserrat Regular';
   font-size: 1rem;
 }
 
 .job-card p{
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: 'Montserrat Regular';
   font-size: 1rem;
 }
